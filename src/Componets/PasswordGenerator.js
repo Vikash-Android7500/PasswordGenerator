@@ -55,7 +55,7 @@ const PasswordGenerator = () => {
      }
 
      dispatch({ type: "SET_PASSWORD", payload: generatedPassword });
-     toast.success("Generator Password 😀");
+     toast.success("Generator Password😀");
     }
   };
 
